@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Test</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Code_Test_Logo.png" type="image/x-icon">
 </head>
 <body>
     <div class="main">
-
+        <div id="editor">
+            <textarea name="html" class="codeArea" id="html" placeholder="Write your HTML code here.."></textarea>
+            <textarea name="html" class="codeArea" id="css" placeholder="Write your CSS code here.."></textarea>
+            <textarea name="html" class="codeArea" id="js" placeholder="Write your JS code here.."></textarea>
+        </div>
+        <div id="output">
+            <iframe id="outputFrame"></iframe>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
